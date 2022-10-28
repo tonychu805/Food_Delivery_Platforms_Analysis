@@ -4,25 +4,31 @@ Using a food delivery platform dataset in the US, I used R language to conduct d
 
 ## These are the columns of the ____ file contains:
 
-# restaurant_id       restaurant_id
-# name                name  
-# platform            platform
-#                     (Doordash, Postmates, Grubhub, Ubereats, Delivery.com, Caviar)
-# sub_platform        sub_platform
-# latitude            latitude
-# longitude           longitude
-# city                city
-# country             country
-# active              restaurant is currently delivering or not
-#                     (True, False)
-# standardized_name   standardized name to be processed
-# restaurant_chain    restaurant chain name
-# delivery_radius     delivery radius (in km)
+restaurant_id       restaurant_id
+name                name  
+platform            platform
+                    (Doordash, Postmates, Grubhub, Ubereats, Delivery.com, Caviar)
+sub_platform        sub_platform
+latitude            latitude
+longitude           longitude
+city                city
+country             country
+active              restaurant is currently delivering or not
+                    (True, False)
+standardized_name   standardized name to be processed
+restaurant_chain    restaurant chain name
+delivery_radius     delivery radius (in km)
 
-# Note the csv file uses ctrl-a as a delimiter
+Note the csv file uses ctrl-a as a delimiter
 
-# 
+## Part 1: Data Cleaning 
 
+● Designed and implemented an algorithm using R code to reconcile and deduplicate the restaurant locations in the example dataset. Different physical locations of the same restaurant (for example, a McDonald's in Los Angeles vs a McDonald’s in New York) are identified as different restaurant locations
+
+## Part 2: Analysis & Dashboarding
+
+● An exploratory data analysis to advise stakeholders on which area we should launch Otter. 
+● A Tableau dashboard is used to visualise the finding and filter by restaurant name and delivery platform.
 
 
 # There are several questions about the Titanic data that I have:
