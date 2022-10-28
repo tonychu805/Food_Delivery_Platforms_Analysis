@@ -31,6 +31,7 @@ An exploratory data analysis to advise stakeholders on which area we should laun
 A Tableau dashboard is used to visualise the finding and filter by restaurant name and delivery platform.
 
 Presentation slide may be found here: https://docs.google.com/presentation/d/1fcv7K0vxSrBWxyRH99rtU1w3BD2VbsgeYe6uky-mt-I/edit?usp=sharing
+
 Tableau dashboard may be found here: https://public.tableau.com/app/profile/tony.chu3466/viz/OtterrestaurantanalysisV2/Dashboard1?publish=yes
 
 # There are several questions about the Titanic data that I have:
