@@ -30,9 +30,8 @@ Designed and implemented an algorithm using R code to reconcile and deduplicate 
 An exploratory data analysis to advise stakeholders on which area we should launch Otter. 
 A Tableau dashboard is used to visualise the finding and filter by restaurant name and delivery platform.
 
-Presentation slide may be found here: https://shorturl.at/prsV4
-
-Tableau dashboard may be found here: https://shorturl.at/uSUV2
+● Presentation slide may be found here: https://shorturl.at/prsV4
+● Tableau dashboard may be found here: https://shorturl.at/uSUV2
 
 # There are several questions about the Titanic data that I have:
 
