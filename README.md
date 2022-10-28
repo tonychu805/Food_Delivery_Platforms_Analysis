@@ -31,7 +31,7 @@ A Tableau dashboard is used to visualise the finding and filter by restaurant na
 1. Presentation slide may be found here: https://shorturl.at/prsV4 <br/>
 2. Tableau dashboard may be found here: https://shorturl.at/uSUV2
 
-# Three implications drawn from this analysis:
+## Part 3: Three implications drawn from this analysis:
 
 1. Franchise customers are often the ones that generate more revenue than SMB customers since they tend to purchase or implement systems by large across locations.
 2. More Inactivities of delivery partner connections implies higher churns. 
