@@ -2,7 +2,7 @@
 
 Using a food delivery platform dataset in the US, I used R language to conduct data cleaning, feature engineering, and exploratory data analysis, while using Tableau to create an interactive dashboard to showcase actionable insights that the delivery analytics product team may take to maximize sales
 
-## These are the columns of the ____ file contains:
+## These are the columns of the "css_public_all_ofos_locations.csv" file contains:
 
 - restaurant_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      restaurant ID <br/>
 - name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name  <br/>
