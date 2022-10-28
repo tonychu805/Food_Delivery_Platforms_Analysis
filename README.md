@@ -4,22 +4,20 @@ Using a food delivery platform dataset in the US, I used R language to conduct d
 
 ## These are the columns of the ____ file contains:
 
-restaurant_id       restaurant_id
-name                name  
-platform            platform
-                    (Doordash, Postmates, Grubhub, Ubereats, Delivery.com, Caviar)
-sub_platform        sub_platform
-latitude            latitude
-longitude           longitude
-city                city
-country             country
-active              restaurant is currently delivering or not
-                    (True, False)
-standardized_name   standardized name to be processed
-restaurant_chain    restaurant chain name
-delivery_radius     delivery radius (in km)
+- restaurant_id &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      restaurant ID <br/>
+- name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; name  <br/>
+- platform &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; platform (Doordash, Postmates, Grubhub, Ubereats, Delivery.com, Caviar)  <br/>
+- sub_platform &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; additional platform  <br/>
+- latitude &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; latitude  <br/>
+- longitude &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; longitude <br/>
+- city &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; city  <br/>
+- country &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; country <br/>
+- active &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; restaurant is currently delivering or not (True, False) <br/>
+- standardized_name &nbsp;   standardized name to be processed <br/>
+- restaurant_chain &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; restaurant chain name <br/>
+- delivery_radius &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delivery radius (in km) <br/>
 
-Note the csv file uses ctrl-a as a delimiter
+*** Note the csv file uses ctrl-a as a delimiter
 
 ## Part 1: Data Cleaning 
 
@@ -30,12 +28,11 @@ Designed and implemented an algorithm using R code to reconcile and deduplicate 
 An exploratory data analysis to advise stakeholders on which area we should launch Otter. 
 A Tableau dashboard is used to visualise the finding and filter by restaurant name and delivery platform.
 
-● Presentation slide may be found here: https://shorturl.at/prsV4
-● Tableau dashboard may be found here: https://shorturl.at/uSUV2
+1. Presentation slide may be found here: https://shorturl.at/prsV4 <br/>
+2. Tableau dashboard may be found here: https://shorturl.at/uSUV2
 
-# There are several questions about the Titanic data that I have:
+# Three implications drawn from this analysis:
 
-# 1. Who was the oldest survivor and what does the distribution of passengers' ages look like?
-# 2. Was there a relationship between age and survival rate?
-# 3. Did having a cabin increase survival rate?
-# 4. Did gender play a factor in terms of revenue and fare price?
+1. Franchise customers are often the ones that generate more revenue than SMB customers since they tend to purchase or implement systems by large across locations.
+2. More Inactivities of delivery partner connections implies higher churns. 
+3. To launch the Otter service among SMBs, we shall examine the cities with the highest restaurant concentrations (highest number of unique restaurants with active delivery partners), and thus cities with at least 5,000 unique restaurants were chosen for this analysis.
